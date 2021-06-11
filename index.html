@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voice voice voice voice</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            <h1>Audio player</h1>
+            <img src="./assets/imgs/play-icon.png" alt="balao">
+        </div>
+
+        <div class="text">
+            <div class="text-content" contenteditable oninput="setText(event)">Informe seu texto</div>
+        </div>
+
+        <div class="btns">
+            <button onclick="speak(event)">Falar</button>
+            <button onclick="stop(event)">Parar</button>
+        </div>
+    </div>
+
+    <p>Feito com ❤ por <a href="https://github.com/Lucas-Onofre">Lucas Onofre</a></p>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

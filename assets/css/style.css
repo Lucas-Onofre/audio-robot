@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color: #6262D9;
+}
+
+.title{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+
+.title h1{
+    font-size: 4rem;
+}
+
+.title img{
+    width: 7rem;
+}
+
+.text{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    width: 70%;
+    min-height: 50vh;
+    border-radius: 1rem;
+    background-color: #7094F8;
+    color: white;
+    font-size: 2rem;
+}
+
+.text-content{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+}
+
+.btns{
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+button{
+    font-size: 3rem;
+    border: white;
+    color: white;
+    border-radius: 1rem;
+    background-color: #DF70F8;
+    width: 20rem;
+    height: 15rem;
+    line-height: 4rem;
+}
+
+button:hover{
+    background-color: #A262D9;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+p a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+@media (max-width: 516px){
+    .title h1{
+        font-size: 2.7rem;
+    }
+}
